@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victoria Lopez Baez — Interior Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation dots -->
+  <nav class="dots" aria-label="Page navigation">
+    <button class="dot active" data-index="0" aria-label="Cover"><span class="dot-num">01</span></button>
+    <button class="dot" data-index="1" aria-label="About"><span class="dot-num">02</span></button>
+    <button class="dot" data-index="2" aria-label="CV"><span class="dot-num">03</span></button>
+    <button class="dot" data-index="3" aria-label="The Sanctuary"><span class="dot-num">04</span></button>
+    <button class="dot" data-index="4" aria-label="Sanctuary Details"><span class="dot-num">05</span></button>
+    <button class="dot" data-index="5" aria-label="Casitas Prefab"><span class="dot-num">06</span></button>
+    <button class="dot" data-index="6" aria-label="Casita 1100"><span class="dot-num">07</span></button>
+    <button class="dot" data-index="7" aria-label="Clever Tiny Homes"><span class="dot-num">08</span></button>
+    <button class="dot" data-index="8" aria-label="Clever Details"><span class="dot-num">09</span></button>
+    <button class="dot" data-index="9" aria-label="Contact"><span class="dot-num">10</span></button>
+  </nav>
+
+  <!-- Fixed header & footer (visible on pages 2–9) -->
+  <header class="fixed-header" id="fixedHeader">
+    <span class="header-left" data-i18n="header_title">Interior Design Portfolio</span>
+    <span data-i18n="header_date">Victoria Lopez, Janvier 2026</span>
+  </header>
+  <footer class="fixed-footer" id="fixedFooter">
+    <span>victorialopezbaez97@gmail.com</span>
+    <span>+33 7 67 24 27 65</span>
+    <span>Paris, France</span>
+  </footer>
+
+  <main class="scroll-container">
+
+    <!-- PAGE 1: COVER -->
+    <section class="page page-cover" id="cover">
+      <div class="reveal">
+        <h1 class="cover-title">
+          <span class="cover-line">PORT</span>
+          <span class="cover-line cover-line-indent">FOLIO</span>
+        </h1>
+      </div>
+      <div class="cover-info reveal reveal-delay-1">
+        <p class="cover-name">VICTORIA LOPEZ BAEZ</p>
+        <p class="cover-role" data-i18n="cover_role">Interior Designer</p>
+      </div>
+      <div class="cover-contact reveal reveal-delay-2">
+        <p>victorialopezbaez97@gmail.com</p>
+        <p>+33 7 67 24 27 65 &nbsp;&nbsp; 75014 Paris, France</p>
+        <a href="assets/Victoria-Lopez-Portfolio-Jan-2026.pdf" download class="cover-pdf-link" data-i18n="cover_pdf">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Télécharger le portfolio en PDF
+        </a>
+      </div>
+    </section>
+
+    <!-- PAGE 2: ABOUT -->
+    <section class="page page-about" id="about">
+      <div class="about-image reveal">
+        <img src="photos/about-01.jpg" alt="Paris architecture" loading="lazy">
+      </div>
+      <div class="about-text reveal reveal-delay-1">
+        <h2 class="section-title" data-i18n="about_title_html">À<br><span class="section-title-bold">PROPOS</span></h2>
+        <p data-i18n="about_p1">Architecte d'intérieur, diplômée en 2021 en Architecture d'intérieur à l'Universidad del Arte (UNARTE), Puebla, Mexique. Passionnée par le design d'intérieur, la photographie et l'image, je cumule plus de trois ans d'expérience dans la conception des unités résidentielles de moins de 120 m², principalement à Los Angeles et en Californie.</p>
+        <p data-i18n="about_p2">Je développe également des compétences en création de contenu et en gestion des réseaux sociaux, au service de la mise en valeur des projets et de l'identité visuelle.</p>
+      </div>
+    </section>
+
+    <!-- PAGE 3: CV -->
+    <section class="page page-cv" id="cv">
+      <div class="cv-grid">
+        <div class="cv-col reveal">
+          <h2 class="cv-heading" data-i18n="cv_experience">EXPÉRIENCE PROFESSIONNELLE</h2>
+          <h3>Interior Designer <span class="cv-light">(HOMEPLEX, Inc.)</span></h3>
+          <p class="cv-dates" data-i18n="cv_dates_html">Design Manager (Mars 2025 – Présent)<br>
+          Interior Designer (Juin 2024 – Mars 2025)<br>
+          Junior Interior Designer (Juin 2023 – Juin 2024)<br>
+          Interior Design/Social Media Manager Assistant (Juin 2022 – Juin 2023)</p>
+          <ul>
+            <li data-i18n="cv_exp1">Développement de concepts de design intérieur innovants et esthétiques pour des espaces résidentiels (ADUs), unités résidentielles de moins de 120 m2.</li>
+            <li data-i18n="cv_exp2">Gestion de la plupart des phases de projets de design, des consultations initiales avec les clients et du développement des concepts à l'approvisionnement en matériaux, la coordination de projet et les présentations clients.</li>
+            <li data-i18n="cv_exp3">Assistance à l'organisation d'événements d'entreprise, assurant une exécution fluide. Maîtrise des logiciels de design (ex. : AutoCAD, Sketchup, Illustrator, etc.).</li>
+            <li data-i18n="cv_exp4">Expérience dans l'utilisation de systèmes CRM (ex. : Jungo/Salesforce, Flolty, Mailchimp) pour la gestion des relations clients, le suivi de l'avancement des projets et l'optimisation de la communication.</li>
+          </ul>
+        </div>
+        <div class="cv-col reveal reveal-delay-1">
+          <h2 class="cv-heading" data-i18n="cv_education">FORMATION</h2>
+          <h3 data-i18n="cv_degree_html">Diplôme en Design d'Intérieur <span class="cv-light">(Août 2015 – Déc 2021)</span></h3>
+          <ul>
+            <li data-i18n="cv_edu1">Universidad de Arte de Puebla (UNARTE) Diplôme en Design d'Intérieur</li>
+            <li data-i18n="cv_edu2">Note Finale: 88/100</li>
+          </ul>
+          <h3>ADU Academy <span class="cv-light" data-i18n="cv_adu_dates">(Fév 2023 – Nov 2024)</span></h3>
+          <ul><li data-i18n="cv_adu_loc">San Diego (À distance)</li></ul>
+
+          <h2 class="cv-heading" style="margin-top: 2rem;" data-i18n="cv_skills">COMPÉTENCES</h2>
+          <ul>
+            <li>AutoCAD, SketchUp, Enscape</li>
+            <li>Suite Office</li>
+            <li data-i18n="cv_skill_adobe">Adobe (Maîtrise d'Illustrator, connaissances de base de Photoshop)</li>
+            <li>ArchiCAD</li>
+            <li data-i18n="cv_skill_org">Compétences en organisation et en gestion du temps.</li>
+            <li data-i18n="cv_skill_problem">Résolution de problèmes. Service client.</li>
+            <li data-i18n="cv_skill_detail">Souci du détail. Saisie de données.</li>
+          </ul>
+
+          <h2 class="cv-heading" style="margin-top: 2rem;" data-i18n="cv_languages">LANGUES</h2>
+          <ul>
+            <li data-i18n="cv_lang_es">Espagnol (Langue maternelle)</li>
+            <li data-i18n="cv_lang_en">Anglais (C1)</li>
+            <li data-i18n="cv_lang_fr">Français (B2)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: THE SANCTUARY -->
+    <section class="page page-project" id="sanctuary">
+      <div class="project-layout">
+        <div class="project-image reveal">
+          <img src="photos/Copia de Designer Series 2.png" alt="The Sanctuary exterior" loading="lazy" class="crop-sanctuary-front">
+        </div>
+        <div class="project-text reveal reveal-delay-1">
+          <h2 class="project-title">THE<br>SANCTUARY</h2>
+          <p data-i18n="sanctuary_p1">Premier modèle de la Designer Series, The Sanctuary est né d'une volonté de répondre à la pénurie de logements à Los Angeles, sans compromettre le design. Avec ses 749 pieds carrés (70 m²), il incarne notre vision d'un habitat compact, raffiné et fonctionnel.</p>
+          <p data-i18n="sanctuary_p2">La Designer Series se décline en sept modèles de différentes tailles, conçus pour s'adapter aux besoins et aux modes de vie de nos clients.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: SANCTUARY DETAILS -->
+    <section class="page page-details" id="sanctuary-details">
+      <div class="details-images reveal">
+        <div class="details-img-wrap">
+          <img src="photos/kitchen and media contemp 3.png" alt="Interior living space" loading="lazy" class="crop-designer-living">
+        </div>
+        <div class="details-img-wrap">
+          <img src="photos/Bedroom_Contemporary.png" alt="Luxury bedroom" loading="lazy" class="crop-designer-bedroom">
+        </div>
+      </div>
+      <div class="details-texts reveal reveal-delay-1">
+        <div class="detail-text">
+          <h3 data-i18n="detail_flex_title">Flexibility</h3>
+          <p data-i18n="detail_flex_p">Chaque option est proposée selon trois gammes de prix distinctes, nous permettant de nous adapter aux différentes possibilités et contraintes budgétaires de chacun, sans compromettre la qualité ni le design.</p>
+        </div>
+        <div class="detail-text">
+          <h3 data-i18n="detail_lux_title">Luxury</h3>
+          <p data-i18n="detail_lux_p">The Sanctuary se décline en quatre styles architecturaux distincts: Ranch, Craftsman, Spanish et Contemporary — permettant au design de s'adapter à différents contextes, préférences et modes de vie.</p>
+        </div>
+        <div class="detail-text">
+          <h3 data-i18n="detail_int_title">Interiors</h3>
+          <p data-i18n="detail_int_p">Chaque espace est conçu pour optimiser la surface, la lumière et la circulation, tout en offrant des ambiances chaleureuses et adaptées au quotidien.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 6: CASITAS PREFAB -->
+    <section class="page page-project" id="casitas">
+      <div class="project-layout">
+        <div class="project-image reveal">
+          <img src="photos/Copia de Casitas pre fab.png" alt="Casita 1100 floor plan" loading="lazy" class="crop-casitas-floorplan">
+        </div>
+        <div class="project-text reveal reveal-delay-1">
+          <h2 class="project-title">CASITAS<br>PREFAB</h2>
+          <p data-i18n="casitas_p1">En partenariat avec ADU Crew, un fabricant de constructions préfabriquées basé dans le nord de la Californie, nous avons conçu Casitas Prefab : une collection de neuf modèles allant de 500 (46 m²) à 1200 (111m²) pieds carrés.</p>
+          <p data-i18n="casitas_p2">Chaque unité a été pensée dans les moindres détails, offrant un large éventail d'options pour les intérieurs, les extérieurs et l'aménagement paysager, tout en bénéficiant des coûts réduits propres aux unités préfabriquées.</p>
+          <p class="project-label">Casita 1100 L-Shape</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 7: CASITA 1100 -->
+    <section class="page page-project" id="casita-1100">
+      <div class="project-layout">
+        <div class="project-image reveal">
+          <img src="photos/Casitas pre fab.png" alt="Casita 1100 L-Shape exterior" loading="lazy" class="crop-casitas-exterior">
+        </div>
+        <div class="project-text reveal reveal-delay-1">
+          <h2 class="project-title">CASITA<br>1100<br>L-SHAPE</h2>
+          <p data-i18n="casita1100_p1">Cette unité de 1100 pieds carrés (102 m²) offre une grande polyvalence. Le plan comprend deux chambres et deux salles de bains complètes, ainsi qu'un espace modulable pouvant servir de bureau ou de chambre supplémentaire.</p>
+          <p data-i18n="casita1100_p2">Le design intègre également un porche accueillant et une terrasse privée, alliant fonctionnalité et confort, à l'intérieur comme à l'extérieur.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 8: CLEVER TINY HOMES -->
+    <section class="page page-project" id="clever">
+      <div class="project-layout">
+        <div class="project-image project-image-dual reveal">
+          <img src="photos/Copia de Clients projects.png" alt="Clever Tiny Homes exterior" loading="lazy" class="crop-clever-front">
+          <img src="photos/clever-tiny-2.png" alt="Clever Tiny Homes rear view" loading="lazy" class="crop-clever-rear">
+        </div>
+        <div class="project-text reveal reveal-delay-1">
+          <h2 class="project-title">CLEVER<br>TINY<br>HOMES</h2>
+          <p data-i18n="clever_p1">En partenariat avec Clever Tiny Homes, nous créons des maisons à la fois esthétiques, fonctionnelles et abordables. Ensemble, nous avons conçu la ligne Elements, composée de quatre blocs modulables pouvant être combinés de différentes façons pour créer des plans personnalisés adaptés aux besoins de chaque client.</p>
+          <p data-i18n="clever_p2">Chaque projet offre ainsi des espaces durables, flexibles et pensés pour les modes de vie modernes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 9: CLEVER DETAILS -->
+    <section class="page page-clever-details" id="clever-details">
+      <div class="clever-details-layout">
+        <div class="clever-details-text reveal">
+          <h3 data-i18n="clever_d1_title">Design & Functionality</h3>
+          <p data-i18n="clever_d1_p">Chaque Élément allie esthétisme et espaces pratiques, pensés pour les modes de vie modernes.</p>
+
+          <h3 data-i18n="clever_d2_title">Flexibility & Customization</h3>
+          <p data-i18n="clever_d2_p">Quatre styles d'extérieur, similaires à ceux de la Designer Series, et trois aménagements paysagers différents sont également disponibles, offrant encore plus de possibilités de personnalisation.</p>
+
+          <h3 data-i18n="clever_d3_title">Affordability & Quality</h3>
+          <p data-i18n="clever_d3_p">En combinant design, construction et fabrication de pointe, nous créons des maisons modulables alliant durabilité, haute qualité et solutions économiques, sans compromis sur le style ni la fonctionnalité.</p>
+        </div>
+        <div class="clever-details-image reveal reveal-delay-1">
+          <img src="photos/Clients projects.png" alt="Clever Tiny Homes" loading="lazy" class="crop-clever-detail">
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 10: MERCI -->
+    <section class="page page-merci" id="merci">
+      <div class="reveal">
+        <h2 class="merci-title" data-i18n="merci_title">MERCI</h2>
+      </div>
+      <div class="merci-text reveal reveal-delay-1">
+        <p data-i18n="merci_p1">Merci d'avoir découvert mon univers.</p>
+        <p data-i18n="merci_p2">À travers chaque projet, je cherche à créer des espaces fonctionnels, esthétiques et modulables, pensés pour le quotidien et pour durer. Je continue d'innover, de collaborer et de transformer des idées en lieux de vie qui inspirent.</p>
+      </div>
+      <div class="merci-info reveal reveal-delay-2">
+        <span data-i18n="merci_date">Janvier 2026</span>
+        <span><strong data-i18n="header_title">Interior Design Portfolio</strong></span>
+        <span data-i18n="merci_by">Conçu par: Victoria López Baez</span>
+      </div>
+      <div class="merci-contact reveal reveal-delay-2">
+        <p>+33 7 67 24 27 65 &nbsp;&nbsp; victorialopezbaez97@gmail.com</p>
+        <p>75014 Paris, France</p>
+        <a href="assets/Victoria-Lopez-Portfolio-Jan-2026.pdf" download class="merci-pdf-link" data-i18n="cover_pdf">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Télécharger le portfolio en PDF
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Scroll hint -->
+  <div class="scroll-hint" id="scrollHint">
+    <span data-i18n="scroll">Scroll</span>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 5v14M5 12l7 7 7-7"/>
+    </svg>
+  </div>
+
+  <!-- Floating pill selector -->
+  <div class="pill" id="pill">
+    <button class="pill-toggle" id="pillToggle" aria-label="Settings">
+      <span class="pill-lang" id="pillLang">FR</span>
+      <span class="pill-divider"></span>
+      <svg class="pill-icon" id="pillThemeIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+      </svg>
+      <span class="pill-divider"></span>
+      <a href="assets/Victoria-Lopez-Portfolio-Jan-2026.pdf" download class="pill-dl-icon" aria-label="Download PDF" onclick="event.stopPropagation()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+      </a>
+    </button>
+    <div class="pill-menu" id="pillMenu">
+      <div class="pill-section">
+        <span class="pill-label" data-i18n="pill_language">Langue</span>
+        <div class="pill-lang-options">
+          <button class="pill-lang-btn active" data-lang="en">EN</button>
+          <button class="pill-lang-btn" data-lang="es">ES</button>
+          <button class="pill-lang-btn" data-lang="fr">FR</button>
+        </div>
+      </div>
+      <div class="pill-section">
+        <span class="pill-label" data-i18n="pill_theme">Thème</span>
+        <button class="pill-theme-btn" id="pillThemeBtn">
+          <span class="pill-theme-track">
+            <span class="pill-theme-thumb"></span>
+          </span>
+          <span data-i18n="pill_dark">Sombre</span>
+        </button>
+      </div>
+      <div class="pill-section pill-section-last">
+        <a href="assets/Victoria-Lopez-Portfolio-Jan-2026.pdf" download class="pill-pdf-btn" data-i18n="pill_pdf">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Télécharger PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
