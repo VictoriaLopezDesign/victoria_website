@@ -226,7 +226,7 @@ body {
   gap: 2rem;
 }
 
-.page-cover > .reveal:first-child {
+.page-cover>.reveal:first-child {
   opacity: 1;
   transform: none;
   filter: none;
@@ -258,6 +258,7 @@ body {
     transform: translateX(-100%) skewX(8deg);
     filter: blur(8px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0) skewX(0deg);
@@ -271,6 +272,7 @@ body {
     transform: translateX(100%) skewX(-8deg);
     filter: blur(8px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0) skewX(0deg);
@@ -447,7 +449,7 @@ body {
 
 .crop-casitas-floorplan {
   object-fit: contain;
-  height: 75vh !important;
+  /* height: 75vh !important; */
 }
 
 .crop-casitas-exterior {
@@ -1016,6 +1018,10 @@ body {
   .project-image img {
     max-height: 35vh;
     object-fit: cover;
+  }
+
+  .crop-casitas-floorplan {
+    object-fit: contain !important;
   }
 
   .project-image-dual {
